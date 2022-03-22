@@ -10,7 +10,7 @@
   inputs.src-sound-master.flake = false;
   inputs.src-sound-master.ref   = "refs/heads/master";
   inputs.src-sound-master.owner = "yglukhov";
-  inputs.src-sound-master.repo  = "sound.git";
+  inputs.src-sound-master.repo  = "sound";
   inputs.src-sound-master.type  = "github";
   
   inputs."jnim".owner = "nim-nix-pkgs";
