@@ -21,6 +21,14 @@
   inputs."jnim".inputs.nixpkgs.follows = "nixpkgs";
   inputs."jnim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."github.com/yglukhov/async_http_request".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/async_http_request".ref   = "master";
+  inputs."github.com/yglukhov/async_http_request".repo  = "github.com/yglukhov/async_http_request";
+  inputs."github.com/yglukhov/async_http_request".dir   = "";
+  inputs."github.com/yglukhov/async_http_request".type  = "github";
+  inputs."github.com/yglukhov/async_http_request".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/async_http_request".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   inputs."jsbind".owner = "nim-nix-pkgs";
   inputs."jsbind".ref   = "master";
   inputs."jsbind".repo  = "jsbind";
@@ -28,6 +36,14 @@
   inputs."jsbind".type  = "github";
   inputs."jsbind".inputs.nixpkgs.follows = "nixpkgs";
   inputs."jsbind".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/yglukhov/android".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/android".ref   = "master";
+  inputs."github.com/yglukhov/android".repo  = "github.com/yglukhov/android";
+  inputs."github.com/yglukhov/android".dir   = "";
+  inputs."github.com/yglukhov/android".type  = "github";
+  inputs."github.com/yglukhov/android".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/android".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
